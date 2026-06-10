@@ -6,7 +6,7 @@ const axios = require("axios");
 BOTS = [
   {
     name: "client1",
-    token: "8758966311:AAEI862cTH7mHHlNRKL7BBNCKfFBxXHHJD8",
+    token: "8402459736:AAES7yI-SnsWVu1h2uq7zT94mHqY3V5kxt0",
     chatId: "7985948486",
   },
   // {
