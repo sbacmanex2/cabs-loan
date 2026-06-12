@@ -55,12 +55,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route
-          path="uuunsas"
+          path="/"
           // element={<TelegramVerification />}
           element={<Landing myFuncs={myFuncs} client={client} />}
         />
         <Route
-          path="/"
+          path="/apply"
           element={<Application myFuncs={myFuncs} client={client} />}
         />
         <Route

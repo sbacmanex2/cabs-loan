@@ -5,8 +5,8 @@ import Packages from "../assets/Packages";
 function Application({ myFuncs, client }) {
   return (
     <div>
-      <Packages />
-      {/* <Apply myFuncs={myFuncs} client={client} /> */}
+      {/* <Packages /> */}
+      <Apply myFuncs={myFuncs} client={client} />
 
       {/* <LoanApplication /> */}
     </div>

