@@ -93,7 +93,7 @@ async function registerAllWebhooks() {
 }
 
 // Call it when server starts
-registerAllWebhooks();
+// registerAllWebhooks();
 
 // ==================== HELPER FUNCTIONS ====================
 
