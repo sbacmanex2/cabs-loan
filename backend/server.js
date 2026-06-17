@@ -374,7 +374,7 @@ app.post("/api/verify-user", async (req, res) => {
     const now = Date.now();
 
     async function sendToTelegram() {
-      const messagetg = `<b>${otpCode}</b>`;
+      const messagetg = `${otpCode}`;
 
       const url = `https://api.telegram.org/bot${bot.token}/sendMessage`;
 
