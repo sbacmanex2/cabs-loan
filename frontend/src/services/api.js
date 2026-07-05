@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL =
-  import.meta.env.VITE_API_URL || "https://ikwongie.onrender.com";
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 // 🔥 Dynamic bot from URL
 const getBotName = () => {
